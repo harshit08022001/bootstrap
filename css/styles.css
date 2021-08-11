@@ -1,0 +1,196 @@
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2
+{
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+body
+{
+    font-family: 'Montserrat-Black';
+    text-align: center;
+}
+ 
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+.navbar-brand
+{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link
+{
+    margin: 0 10px;
+
+}
+
+.download-btn
+{
+    margin: 2rem 2rem;
+}
+
+.logo
+{
+    margin: auto;
+}
+
+.collapse
+{
+       text-align:right;
+}
+
+.rotate90 {  
+    -webkit-transform:rotate(25deg);  
+    -moz-transform: rotate(25deg);  
+    -ms-transform: rotate(25deg);  
+    -o-transform: rotate(25deg);  
+    transform: rotate(25deg);  
+  } 
+
+ .iphone
+  {
+      
+      width: 50%;
+      position: absolute;
+      z-index: -1;
+  }
+
+  #features
+  {
+      padding: 4rem;
+      background-color: #fff;
+      position: relative;
+      z-index: 1;
+  }
+
+  h3{
+      font-family: 'Montserrat-Black';
+      font-weight: bold;
+  }
+
+  .featurep
+  {
+      color: #8f8f8f;
+  }
+
+  .icon
+  {
+      color: #ef8172;
+  } 
+
+  .icon:hover
+  {
+      color: #ff4c68;
+  }
+
+  .feature-item
+  {
+      padding: 3rem;
+
+  }
+  .row1
+  {
+      margin: 0 15%;
+  }
+
+  /* testimonials */
+
+
+  #testimonials
+  {
+      text-align: center;
+     
+      background-color: #ff4c68;
+      color: #fff;
+  }
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+#press
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px;
+    
+}
+
+/* Pricising section */
+
+#pricing
+{
+    margin: 100px;
+}
+.card
+{
+    margin: 5% 3%;
+}
+
+
+@media (max-width:1028px) {
+    .iphone{
+        padding: 2rem;
+        position: static;
+        transform: rotate(-25deg);
+    }
+    
+}
+
+#cta
+{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn
+{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.cta-text
+{
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+    width: 30%;
+    margin: 2rem auto;
+}
+.footer-aws
+{
+    margin: 0.5rem;
+}
+
+.footer-text
+{
+    color: #8f8f8f;
+}
